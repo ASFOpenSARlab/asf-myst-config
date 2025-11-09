@@ -24,7 +24,7 @@ project:
 site:
   template: book-theme
   options:
-    favicon: https://raw.githubusercontent.com/ASFOpenSARlab/asf-myst-config/main/ASF_favicon.svg
+    favicon: https://raw.githubusercontent.com/ASFOpenSARlab/asf-myst-config/main/favicon.ico
     folders: true
     logo: https://raw.githubusercontent.com/ASFOpenSARlab/asf-myst-config/main/ASF_logo.svg
     logo_url: https://asf.alaska.edu/
