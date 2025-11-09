@@ -9,7 +9,6 @@ project:
       orcid: 0009-0006-9584-0687
       email: 'aflewandowski@alaska.edu'
       affiliations: ASF
-      linkedin: https://www.linkedin.com/in/brian-rose-37bb55106/
     - name: Julia White
       id: julia-white
       affiliation: UAF
@@ -24,9 +23,9 @@ project:
     
 site:
   template: book-theme
+  favicon: https://raw.githubusercontent.com/ASFOpenSARlab/asf-myst-config/main/ASF_favicon.svg
   options:
     folders: true
-    favicon: https://raw.githubusercontent.com/ASFOpenSARlab/asf-myst-config/main/ASF_favicon.svg
     logo: https://raw.githubusercontent.com/ASFOpenSARlab/asf-myst-config/main/ASF_logo.svg
     logo_url: https://asf.alaska.edu/
   nav:
