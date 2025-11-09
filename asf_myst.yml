@@ -31,9 +31,11 @@ site:
     logo_url: https://asf.alaska.edu/
   nav:
     - title: ASF
-      section:
+      sections:
       - title: ASF
         url: https://asf.alaska.edu/
+        external: true
+        newtab: true
       - title: ASF OpenScienceLab
         url: 
       - title: ASF Data Search (Vertex)
@@ -42,29 +44,44 @@ site:
         url:
     - title: NASA Earthdata
       url: https://www.earthdata.nasa.gov/
+      external: true
+      newtab: true
     - title: Project Pythia
       url: https://projectpythia.org
+      external: true
+      newtab: true
     - title: SAR Cookbooks
       url: https://github.com/ASFOpenSARlab
+      external: true
+      newtab: true
   actions:
     - title: ASF
       url: https://asf.alaska.edu/
+      external: true
+      newtab: true
 
   parts:
     footer: |
-        :::::{grid} 3
-        :class: items-center
+      ```{grid} 3
+      :class: items-center gap-4
 
+      ```{grid-item}
+      ```{image} https://raw.githubusercontent.com/ASFOpenSARlab/asf-myst-config/main/NASA_logo.jpg
+      :alt: NASA Logo
+      :class: h-12
+      ```
+      ```
 
-        ```{image} https://raw.githubusercontent.com/ASFOpenSARlab/asf-myst-config/main/NASA_logo.jpg
-        :alt: NASA Logo
-        ```
+      ```{grid-item}
+      ```{image} https://raw.githubusercontent.com/ASFOpenSARlab/asf-myst-config/main/ASF_logo.svg
+      :alt: ASF Logo
+      :class: h-12
+      ```
+      ```
 
-        ```{image} https://raw.githubusercontent.com/ASFOpenSARlab/asf-myst-config/main/ASF_logo.svg
-        :alt: ASF Logo
-        ```
-
-        ```{image} https://raw.githubusercontent.com/ASFOpenSARlab/asf-myst-config/main/UAF_logo.svg
-        :alt: UAF Logo
-        ```
-        :::::
+      ```{grid-item}
+      ```{image} https://raw.githubusercontent.com/ASFOpenSARlab/asf-myst-config/main/UAF_logo.svg
+      :alt: UAF Logo
+      :class: h-12
+      ```
+      ```
