@@ -1,0 +1,70 @@
+version: 1
+project:
+  open_access: true
+  license: BSD-3
+  contributors:
+    - name: Alex Lewandowski
+      id: Alex-Lewandowski
+      github: Alex-Lewandowski
+      orcid: 0009-0006-9584-0687
+      email: 'aflewandowski@alaska.edu'
+      affiliations: ASF
+      linkedin: https://www.linkedin.com/in/brian-rose-37bb55106/
+    - name: Julia White
+      id: julia-white
+      affiliation: UAF
+  affiliations:
+    - id: UAF
+      name: University of Alaska Fairbanks
+      department: Geophysical Institute
+      url: https://www.gi.alaska.edu/
+    - id: ASF
+      name: Alaska Satellite Facility
+      url: https://asf.alaska.edu/
+    
+site:
+  template: book-theme
+  options:
+    folders: true
+    favicon: https://raw.githubusercontent.com/ASFOpenSARlab/asf-myst-config/main/ASF_favicon.svg
+    logo: https://raw.githubusercontent.com/ASFOpenSARlab/asf-myst-config/main/ASF_logo.svg
+    logo_url: https://asf.alaska.edu/
+  nav:
+    - title: ASF
+      section:
+      - title: ASF
+        url: https://asf.alaska.edu/
+      - title: ASF OpenScienceLab
+        url: 
+      - title: ASF Data Search (Vertex)
+        url:
+      - title: ASF HyP3
+        url:
+    - title: NASA Earthdata
+      url: https://www.earthdata.nasa.gov/
+    - title: Project Pythia
+      url: https://projectpythia.org
+    - title: SAR Cookbooks
+      url: https://github.com/ASFOpenSARlab
+  actions:
+    - title: ASF
+      url: https://asf.alaska.edu/
+
+  parts:
+    footer: |
+        :::::{grid} 3
+        :class: items-center
+
+
+        ```{image} https://raw.githubusercontent.com/ASFOpenSARlab/asf-myst-config/main/NASA_logo.jpg
+        :alt: NASA Logo
+        ```
+
+        ```{image} https://raw.githubusercontent.com/ASFOpenSARlab/asf-myst-config/main/ASF_logo.svg
+        :alt: ASF Logo
+        ```
+
+        ```{image} https://raw.githubusercontent.com/ASFOpenSARlab/asf-myst-config/main/UAF_logo.svg
+        :alt: UAF Logo
+        ```
+        :::::
