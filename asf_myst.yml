@@ -62,6 +62,9 @@ site:
       url: https://asf.alaska.edu/
 
   parts:
+    head: |
+      <link rel="icon" href="{{ baseurl }}/favicon.ico" sizes="any">
+
     footer: |
       ```{grid} 3
       :class: items-center gap-4
