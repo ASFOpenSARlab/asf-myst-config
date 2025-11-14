@@ -36,14 +36,24 @@ site:
         url: https://hyp3-docs.asf.alaska.edu/hyp3-docs/about/
       - title: ASF OpenScienceLab 
         url: https://opensciencelab.asf.alaska.edu/
-    - title: Affiliations
+    - title: ASF Partners
       children:
+      - title: Goddard Space Flight Center
+        url: https://www.nasa.gov/goddard/
+      - title: Jet Propulsion Laboratory
+        url: https://www.jpl.nasa.gov/
       - title: NASA Earthdata
         url: https://www.earthdata.nasa.gov/
+      - title: NASA Openscapes
+        url: https://nasa-openscapes.github.io/
       - title: Project Pythia
         url: https://projectpythia.org
       - title: UW eScience Institute
         url: https://escience.washington.edu/
+      - title: UAF
+        url: https://www.uaf.edu/uaf/
+      - title: UAF Geophysical Institute
+        url: https://www.gi.alaska.edu/
     - title: ASF SAR Cookbooks
       children:
       - title: MintPy Jupyter Book
