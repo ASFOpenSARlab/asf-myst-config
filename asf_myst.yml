@@ -58,7 +58,7 @@ site:
       children:
       - title: MintPy Jupyter Book
         url: https://github.com/ASFOpenSARlab/opensarlab_MintPy_Recipe_Book
-    - SAR Resources:
+    - title: SAR Resources
       children:
       - title: AwesomeSAR
         url: https://github.com/RadarCODE/awesome-sar
