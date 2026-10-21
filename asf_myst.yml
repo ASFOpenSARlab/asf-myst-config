@@ -56,12 +56,18 @@ site:
         url: https://www.gi.alaska.edu/
     - title: ASF SAR Cookbooks
       children:
+      - title: ASF Community Cookbook
+        url: https://github.com/ASFOpenSARlab/ASF_SAR_Community_Cookbook
       - title: MintPy Jupyter Book
         url: https://github.com/ASFOpenSARlab/opensarlab_MintPy_Recipe_Book
+      - title: NISAR Cookbook
+        url: https://github.com/ASFOpenSARlab/NISAR_Cookbook
     - title: SAR Resources
       children:
       - title: AwesomeSAR
         url: https://github.com/RadarCODE/awesome-sar
+      - title: NISAR Documentation
+        url: https://nisar-docs.asf.alaska.edu/
       - title: NISAR Mission
         url: https://science.nasa.gov/mission/nisar/
         
